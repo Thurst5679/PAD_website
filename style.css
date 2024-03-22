@@ -27,7 +27,11 @@
 }
 
 
-
+.image-container img {
+  max-width: auto; 
+  height: auto;
+  margin-right: 20px;
+  margin-left: 10px;
 }
 
 .image-wrapper img {
@@ -43,7 +47,7 @@
 }
 
 .banner img {
-  width: 100%; 
+  width: 90%; 
   height: auto; 
   display: block; 
 }
