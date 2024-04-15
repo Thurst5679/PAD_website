@@ -31,15 +31,15 @@
 }
 
 .image-container img {
-  max-width: auto;
-  height: auto;
+  max-width: 100%; 
+  height: auto; 
   margin-right: 20px;
   margin-left: 10px;
 }
 
 .image-wrapper img {
-  max-width: 100px;
-  height: auto;
+  max-width: 100%;
+  height: auto; 
 }
 
 .image-text {
