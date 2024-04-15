@@ -31,7 +31,7 @@
 }
 
 .image-container img {
-  max-width: 100%; 
+  max-width: 300px; 
   height: auto; 
   margin-right: 20px;
   margin-left: 10px;
@@ -46,7 +46,7 @@
   margin-top: 150px;
   width: 700px;
   font-family: "Avenir Next";
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .banner img {
