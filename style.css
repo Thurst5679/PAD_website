@@ -38,19 +38,19 @@
 }
 
 .image-wrapper img {
-  max-width: 100%;
+  max-width: 1200px;
   height: auto; 
 }
 
 .image-text {
   margin-top: 150px;
-  width: 700px;
+  width: 1200px;
   font-family: "Avenir Next";
   font-size: 18px;
 }
 
 .banner img {
-  width: 100%;
+  width: 1200px;
   height: auto;
   display: block;
 }
