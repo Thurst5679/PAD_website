@@ -4,59 +4,88 @@
   align-items: left;
   justify-content: right;
   height: 50px;
+  width: 1200px;
 }
 
-.navs {
-  display: flex;
-  background-color: #8B091E;
-  border: 1px solid #ccc;
-  color: white;
+.tabs ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-.navlink {
-  cursor: pointer;
-  padding: 15px 40px;
-  margin: 0 5px;
+.tabs li {
+  display: inline;
+}
+
+.tabs a {
   text-decoration: none;
-  color: white;
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px 5px 0 0;
 }
 
-.navlink:hover {
-  background-color: #6b0716;
+.tabs a:hover {
+  background-color: #ddd;
 }
 
+.tab-content {
+  display: none;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.tab-content:target {
+  display: block;
+}
 .image-container {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 50px;
+  width: 1200px;
 }
 
 .image-container img {
-  max-width: 300px; 
+  max-width: auto; 
   height: auto; 
-  margin-right: 20px;
-  margin-left: 10px;
 }
 
 .image-wrapper img {
   max-width: 1200px;
   height: auto; 
+  flex: 1 1 50%;
 }
 
+.image-wrapper:nth-child(3) {
+  flex-basis: 100%; 
+}
+
+
 .image-text {
-  margin-top: 150px;
-  width: 1200px;
+  margin-top: 30px;
+  width: 1000px;
   font-family: "Avenir Next";
   font-size: 18px;
 }
 
-.banner img {
-  width: 1200px;
-  height: auto;
-  display: block;
-}
 
 .banner {
   width: auto;
   height: aut0;
   display: block;
+}
+
+.tabcontent {
+  display: none;
+}
+
+.about-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.tab-content:not(:target) header,
+.tab-content:not(:target) .container {
+  display: none;
 }
