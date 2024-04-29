@@ -45,6 +45,7 @@
   margin-top: 20px;
   margin-bottom: 20px;
   width: 800px;
+	background-color:antiquewhite;
 }
 
 .image-container img {
@@ -88,7 +89,9 @@
   padding: 20px; 
   font-family: Avenir Next; 
   font-size: 18px; 
-  width:1200px;
+  width: 1200px;
+  height: 800px;
+  background-color:antiquewhite;
 }
 
 #puppy-raiser {
@@ -96,6 +99,8 @@
   font-family: Avenir Next; 
   font-size: 18px;
   width: 1200px;
+  height: I 600px;
+  background-color:antiquewhite;
 }
 
 #linzey{
