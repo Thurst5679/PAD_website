@@ -1,117 +1,89 @@
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  justify-content: right;
-  height: 50px;
-  width: 1200px;
-}
+<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="./styles.css">
+  <style type="text/css">
+  @import url("style.css");
+  </style> 
 
-.tabs ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
+</head>
+	
+	
+<body>
+	
+<nav class="tabs">
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#puppy-raiser">Puppy Raiser</a></li>
+    <li><a href="#application">Application</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#events">Events</a></li>
+    <li><a href="#faqs">F.A.Q.s</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact-us">Contact Us</a></li>
+  </ul>
+</nav>
 
-.tabs li {
-  display: inline;
-}
-
-.tabs a {
-  text-decoration: none;
-  padding: 10px 20px;
-  margin-right: 10px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  border-radius: 5px 5px 0 0;
-}
-
-.tabs a:hover {
-  background-color: #ddd;
-}
-
-.tab-content {
-  display: none;
-  border: 1px solid #ccc;
-  padding: 20px;
-}
-
-.tab-content:target {
-  display: block;
-}
-.image-container {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 800px;
-	background-color:antiquewhite;
-}
-
-.image-container img {
-  max-width: auto; 
-  height: auto; 
-}
-
-.image-wrapper img {
-  max-width: 800px;
-  height: auto; 
-  flex: 1 1 50%;
-}
-
-.image-wrapper:nth-child(3) {
-  flex-basis: 100%; 
-}
+<div class="tab-content" id="home">
+	
+    <div class="image-container">
+   
+	<img src="images/PadGibbs.jpg" alt="Image 1">
+		<div class="image-text">Meet PAD Gibbs. Gibbs is a 2 year old Golden Retriever. He is a completely working service dog. In this photo you can see him with is handler on the job.His job is in Camp Hill, PA as a K-9 dog. His day to day consist of going to schools and working with his owner. He is also known as a Community Outreach Dog.</div>
+    <img src="images/padmeadow.jpg" alt="Image 2"> 
+	     <div class="image-text">Meet PAD Meadow. She is a 3 month old Golden Doodle from our most recent litter. In this photo you can see her trainer working with Halloween decorations. Currently Meadow is in a phase were she needs to be socialized in multiple ways. In this case she is getting familiarized with Halloween costumes, which she could be seeing once she is working one day.</div>
+	<img src="images/padmalik.jpg" alt="Image 3">
+	     <div class="image-text">Meet PAD Malik. Malik is a 2 year old Golden Doodle. He is our most recent “grad” from our program. In the photo you can see him with a young woman, that is now his partner Swanson. He was matched with her about a year and a half ago. He now living life as a full time assistance dog in California.</div>
+	
+	  
+  </div>
 
 
-.image-text {
-  margin-top: 30px;
-  width: 800px;
-  font-family: "Avenir Next";
-  font-size: 18px;
-}
+</div>
 
-.tabcontent {
-  display: none;
-}
+<div class="tab-content" id="puppy-raiser">
+	<img src="images/raisers.jpeg" alt="raisers" id="raiser">
+<p> 
+In the heart of every service dog, is a puppy raiser. You can give someone the gift of true independence by opening your home, volunteering your time and devoting up to 2 years of your life to training a puppy through Phoenix Assistance Dogs.Puppy Raiser are the ultimate volunteers and individually are responsible for the success of all service dog teams! Puppy Raisers are assigned a puppy from our program, and by attending weekly classes for up to 2 1/2 years, completely train their dog the necessary tasks needed to be a service dog. What the Puppy Raisers learn in class they apply all week in regular training sessions, socialization, and outings as well as over see the puppies health and well being.
+	</p>
+<p>
+Do you want to learn more about becoming a Puppy Raisers? Read for FAQ?
+If you are interested in becoming a Puppy Raiser please fill out the application, here.
+</p>
+	
+	
+</div>
 
-.about-container {
-  padding: 20px;
-  text-align: center;
-}
+<div class="tab-content" id="application">
+  Content of Application Tab
+</div>
 
-.tab-content:not(:target) header,
-.tab-content:not(:target) .container {
-  display: none;
-}
+<div class="tab-content" id="services">
+  Content of Services Tab
+</div>
 
-#about {
-  padding: 20px; 
-  font-family: Avenir Next; 
-  font-size: 18px; 
-  width: 1200px;
-  height: 800px;
-  background-color:antiquewhite;
-}
+<div class="tab-content" id="events">
+  Content of Events Tab
+</div>
 
-#puppy-raiser {
-  padding: 20px; 
-  font-family: Avenir Next; 
-  font-size: 18px;
-  width: 1200px;
-  height: I 600px;
-  background-color:antiquewhite;
-}
-
-#linzey{
-	width: 350px;
-	height: auto;
-	padding: 20px;
-}
-
-#raiser {
-    width: auto;
-	height: 400px;
-	padding: 20px;
-}	
-
+<div class="tab-content" id="faqs">
+  Content of F.A.Q.s Tab
+</div>
+	
+<div class="tab-content" id="about">
+<header> Linzey Zoccola- Found of PAD</header>
+	<img src="images/linzey.jpeg" alt="founder" id="linzey">
+P.A.D. of Central PA was founded in 2009 by Linzey Zoccola, who was diagnosed at 2 years of age with Spinal Muscular Atrophy. Ms Zoccola’s journey with assistance dogs began when she was 15 and she has dedicated her life to the industry since then. She has attended many national conferences focusing on positive reinforcement dog training, volunteered and worked for an ADI accredited program, and trained more than 25 fully working assistance dogs. Her love for dogs, desire to serve, and her experience with raising, training and having her own assistance dog inspired her to create a new and organizational model for the field. Her position on topics ranging from canine over population, issues with kenneling dogs, to the complex needs of individuals living with disabilities, the inspiration to launch a program that would assist individuals in finding healthy, suitable puppies from shelters and training them one at a time to become highly personalized assistance dogs began. “I feel passionately that the success of the partnership between canine and human is dependent upon the dedication of the partner themselves and their desire to live with an assistance dog. I am devoted to supporting my community all of the way from finding suitable puppies that are already within my region, as opposed to having a breeding program and to working individually with the person in need of assistance.” – Linzey Zoccola
+</div>
+	
+<div class="tab-content" id="contact-us">
+  Content of Contact Us Tab
+</div>  
+	
+	
+</body>
+</html>
