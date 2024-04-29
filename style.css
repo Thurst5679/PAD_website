@@ -42,8 +42,9 @@
 .image-container {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 50px;
-  width: 1200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 800px;
 }
 
 .image-container img {
@@ -52,7 +53,7 @@
 }
 
 .image-wrapper img {
-  max-width: 1200px;
+  max-width: 800px;
   height: auto; 
   flex: 1 1 50%;
 }
@@ -64,16 +65,9 @@
 
 .image-text {
   margin-top: 30px;
-  width: 1000px;
+  width: 800px;
   font-family: "Avenir Next";
   font-size: 18px;
-}
-
-
-.banner {
-  width: auto;
-  height: aut0;
-  display: block;
 }
 
 .tabcontent {
@@ -89,3 +83,30 @@
 .tab-content:not(:target) .container {
   display: none;
 }
+
+#about {
+  padding: 20px; 
+  font-family: Avenir Next; 
+  font-size: 18px; 
+  width:1200px;
+}
+
+#puppy-raiser {
+  padding: 20px; 
+  font-family: Avenir Next; 
+  font-size: 18px;
+  width: 1200px;
+}
+
+#linzey{
+	width: 350px;
+	height: auto;
+	padding: 20px;
+}
+
+#raiser {
+    width: auto;
+	height: 400px;
+	padding: 20px;
+}	
+
